@@ -1,0 +1,65 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background image for the entire page */
+body {
+    background-color: #fff;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* Style the header */
+header {
+    background-color: #000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the main content section */
+.main-content {
+    text-align: center;
+    padding: 40px;
+}
+
+/* Style other sections (characters, comics, movies) as needed */
+/* For example:
+.characters {
+    /* Add styles here */
+
+
+.comics {
+    /* Add styles here */
+}
+
+.movies {
+    /* Add styles here */
+}
+
+/* Style the footer */
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 10px 0;
+}
